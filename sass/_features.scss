@@ -18,13 +18,13 @@
   width: 33.3333%;
   margin-bottom: 6rem;
 
-
   display: grid;
   grid-template-columns: min-content 1fr;
   grid-row-gap: 1.5rem;
   grid-column-gap: 2.5rem;
 
-  @supports (display: grid) {  //technically reset our changes
+  @supports (display: grid) {
+    //technically reset our changes
     width: auto;
     margin-bottom: 0;
   }
